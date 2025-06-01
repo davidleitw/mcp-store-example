@@ -102,6 +102,7 @@ func getPriceHandler(ctx context.Context, req mcp.CallToolRequest) (*mcp.CallToo
 
 處理陣列格式的商品清單：
 
+
 ```go
 func calculateTotalHandler(ctx context.Context, req mcp.CallToolRequest) (*mcp.CallToolResult, error) {
     args := req.GetArguments()
